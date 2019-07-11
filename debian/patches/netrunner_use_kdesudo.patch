@@ -6,7 +6,7 @@ index 6c2b091..2e41b39 100644
  Type=Application
  Categories=System;Utility;Archiving;
 -Exec=imagewriter -f %f
-+Exec=kdesudo imagewriter -f %f
++Exec=kdesudo -c "imagewriter -f %f"
  Icon=imagewriter
  Name=SUSE Studio Imagewriter
  GenericName=USB key writer
